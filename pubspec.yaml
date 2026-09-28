@@ -1,0 +1,45 @@
+name: project
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Network & Storage
+  http: ^1.2.2
+  shared_preferences: ^2.2.3
+
+  # Notifications (Local)
+  flutter_local_notifications: ^17.2.2
+  timezone: ^0.9.4
+
+  # File Picker (images for accident report)
+  file_picker: ^8.0.0
+
+  # Maps + Location
+  google_maps_flutter: ^2.6.1
+  geocoding: ^3.0.0
+  geolocator: ^12.0.0
+
+  # Charts
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/cars.jpg
+    - assets/carone.jpg
